@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=S-Container
+Exec=ImageVis3D/Build/ImageVis3D
+Comment=
+Terminal=true
+Icon=/usr/share/icons/Paraview.png
+Type=Application
+Name[en_US]=IV3D
