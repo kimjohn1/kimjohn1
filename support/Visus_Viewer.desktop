@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=S-Container
-Exec=/home/kj/launch_visus.sh
+Exec=/home/kj/launch_viewer.sh
 Comment=
 Terminal=true
 Icon=/usr/share/icons/SCIRun_4.png
