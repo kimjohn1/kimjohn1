@@ -125,9 +125,12 @@
 
     git clone https://github.com/kimjohn1/SCIRun.git
     cd SCIRun
-    git checkout dev_2
+    #git checkout dev_2
+    git checkout dev_3
     cd bin
-    cmake -DSCIRUN_QT_MIN_VERSION=6.3.1 -DQt_PATH=~/Qt6/6.3.1/gcc_64 -DWITH_OSPRAY=OFF -DOPENVISUS_DIR=~/OpenVisus/build/Release/OpenVisus/ ../Superbuild
+    cmake -DSCIRUN_QT_MIN_VERSION=6.3.1 -DQt_PATH=~/Qt6/6.3.1/gcc_64 -DWITH_OSPRAY=OFF ../Superbuild
+    #cmake -DSCIRUN_QT_MIN_VERSION=6.3.1 -DQt_PATH=~/Qt6/6.3.1/gcc_64 -DWITH_OSPRAY=OFF -DOPENVISUS_DIR=~/OpenVisus/build/Release/OpenVisus/ ../Superbuild
+    #cmake -DSCIRUN_QT_MIN_VERSION=6.3.1 -DQt_PATH=~/Qt6/6.3.1/gcc_64 -DWITH_OSPRAY=OFF -DOPENVISUS_DIR=/home/kj/OpenVisus/build/Release/OpenVisus/ ../Superbuild
     make -j8
     cd ~/
 
